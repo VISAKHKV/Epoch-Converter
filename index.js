@@ -21,7 +21,7 @@ function logSubmit(event) {
 
   let date;
   if (turn == true) {
-    date = new Date((parseInt(time) - 19800) * 1000);
+    date = new Date((parseInt(time) + 19800) * 1000);
   } else {
     date = new Date(parseInt(time) * 1000);
   }
