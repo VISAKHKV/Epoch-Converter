@@ -29,7 +29,7 @@ function logSubmit(event) {
   let dateStr =
     date.getDate() +
     " - " +
-    months[date.getMonth() + 1] +
+    months[date.getMonth()] +
     " - " +
     date.getFullYear();
 
